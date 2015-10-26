@@ -104,8 +104,8 @@ public class WorldRenderer {
 		len = world.coins.size();
 		for (int i = 0; i < len; i++) {
 			Coin coin = world.coins.get(i);
-			TextureRegion keyFrame = Assets.coinAnim.getKeyFrame(coin.stateTime, Animation.ANIMATION_LOOPING);
-			batch.draw(keyFrame, coin.position.x - 0.5f, coin.position.y - 0.5f, 1, 1);
+//			TextureRegion keyFrame = Assets.coinAnim.getKeyFrame(coin.stateTime, Animation.ANIMATION_LOOPING);
+			batch.draw(Assets.coin, coin.position.x - 0.5f, coin.position.y - 0.5f, 1, 1);
 		}
 	}
 

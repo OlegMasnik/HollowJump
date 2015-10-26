@@ -67,11 +67,11 @@ public class Assets {
 	}
 
 	public static void load () {
-		background = loadTexture("data/background.jpg");
+		background = loadTexture("data/bg.jpg");
 		backgroundRegion = new TextureRegion(background, 0, 0, 320, 480);
 
 		items = loadTexture("data/items.png");
-		coin = loadTexture("data/coin.png");
+		coin = loadTexture("data/candy.png");
 		robot_2 = loadTexture("data/1.png");
 		robot_3 = loadTexture("data/2.png");
 		floor = loadTexture("data/floor.png");
@@ -91,7 +91,7 @@ public class Assets {
 		spring = new TextureRegion(items, 128, 0, 32, 32);
 		castle = new TextureRegion(items, 128, 64, 64, 64);
 
-		coinAnim = new Animation(0.2f, new TextureRegion(coin, 0, 0, 16, 16));
+//		coinAnim = new Animation(0.2f, new TextureRegion(coin, 0, 0, 20, 20));
 //		coinAnim = new Animation(0.2f, new TextureRegion(items, 128, 32, 32, 32), new TextureRegion(items, 160, 32, 32, 32),
 //			new TextureRegion(items, 192, 32, 32, 32), new TextureRegion(items, 160, 32, 32, 32));
 //		bobJump = new Animation(0.2f, new TextureRegion(items, 0, 128, 32, 32), new TextureRegion(items, 32, 128, 32, 32));

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/kubic/libGDX/libgdx-demo-superjumper/android/res"><file name="icon" path="/home/kubic/libGDX/libgdx-demo-superjumper/android/res/drawable-ldpi/icon.png" qualifiers="ldpi" type="drawable"/><file name="icon" path="/home/kubic/libGDX/libgdx-demo-superjumper/android/res/drawable/icon.png" qualifiers="" type="drawable"/><file name="icon" path="/home/kubic/libGDX/libgdx-demo-superjumper/android/res/drawable-hdpi/icon.png" qualifiers="hdpi" type="drawable"/><file name="icon" path="/home/kubic/libGDX/libgdx-demo-superjumper/android/res/drawable-mdpi/icon.png" qualifiers="mdpi" type="drawable"/><file path="/home/kubic/libGDX/libgdx-demo-superjumper/android/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="android:Theme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:backgroundDimEnabled">false</item>
+    </style></file><file path="/home/kubic/libGDX/libgdx-demo-superjumper/android/res/values/strings.xml" qualifiers=""><string name="app_name">Super Jumper</string></file></source><source path="/home/kubic/libGDX/libgdx-demo-superjumper/android/build/generated/res/rs/debug"/><source path="/home/kubic/libGDX/libgdx-demo-superjumper/android/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/home/kubic/libGDX/libgdx-demo-superjumper/android/src/debug/res"/></dataSet><mergedItems/></merger>

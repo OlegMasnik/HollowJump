@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kubic/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.7.1-SNAPSHOT/bd1febd38af4de57de7da09a3b0e6273e77a1ed0/gdx-backend-android-1.7.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bd1febd38af4de57de7da09a3b0e6273e77a1ed0">
+        <dex dex="/home/kubic/libGDX/libgdx-demo-superjumper/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.7.1-SNAPSHOT-3787ad4ececf742e29a58f287f392843adc3b167.jar" />
+    </item>
+    <item
+        jar="/home/kubic/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.7.1-SNAPSHOT/7cf217fae232e9e1dfc6cdc9644d55e8f2843b08/gdx-1.7.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7cf217fae232e9e1dfc6cdc9644d55e8f2843b08">
+        <dex dex="/home/kubic/libGDX/libgdx-demo-superjumper/android/build/intermediates/pre-dexed/debug/gdx-1.7.1-SNAPSHOT-66c2861aa5fed21d9efab716b3c572038078ceee.jar" />
+    </item>
+    <item
+        jar="/home/kubic/libGDX/libgdx-demo-superjumper/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="206adccdc3d6abbd53c6b95f734df4bbd2c95c89">
+        <dex dex="/home/kubic/libGDX/libgdx-demo-superjumper/android/build/intermediates/pre-dexed/debug/core-1.0-081e34849669d2c00631a3e2c953c2bf8b7f85cc.jar" />
+    </item>
+    <item
+        jar="/home/kubic/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-freetype/1.7.1-SNAPSHOT/a29d1b5d63a3bd23504434ea11260c7355ee8c98/gdx-freetype-1.7.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a29d1b5d63a3bd23504434ea11260c7355ee8c98">
+        <dex dex="/home/kubic/libGDX/libgdx-demo-superjumper/android/build/intermediates/pre-dexed/debug/gdx-freetype-1.7.1-SNAPSHOT-5dc30fba30ec4813b007f7c7c3971f433215202e.jar" />
+    </item>
+
+</items>

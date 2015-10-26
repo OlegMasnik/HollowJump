@@ -66,6 +66,8 @@ public class GameScreen extends ScreenAdapter {
             @Override
             public void highJump() {
                 Assets.playSound(Assets.highJumpSound);
+                lastScore  += 10;
+                scoreString = "SCORE: " + lastScore;
             }
 
             @Override
@@ -147,7 +149,7 @@ public class GameScreen extends ScreenAdapter {
             if (Gdx.input.isKeyPressed(Keys.DPAD_RIGHT)) accel = -5f;
             world.update(deltaTime, accel);
         }
-        if (world.score != lastScore) {
+        if (true) {
             lastScore = world.score;
             scoreString = "SCORE: " + lastScore;
         }
